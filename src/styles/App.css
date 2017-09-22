@@ -6,8 +6,8 @@ theNav {
 }
 
 .kids {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 17%;
+    margin-right: 17%;
     padding-top: 70px;
     background-color: rgba(23, 18, 25, .5);
     color: white;
@@ -16,18 +16,43 @@ theNav {
 nav {
     position: -webkit-sticky;
     position: sticky;
-    top: 0px
+    top: 0px;
+    margin-bottom:
 }
 
-.tinyHomeImg{
-    /*background-image: url(tinyhome1.jpg);*/
-    height: 600px;
+.homeText {
+    z-index: 1;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+.parentDiv {
+    background-image: url(tinyhome1.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-size: contain;
-    width: 130%;
-    margin-left: -20%;
-    margin-right: 120%;
-    /*background-color: rgba(23, 18, 25, .2);*/
-    position: fixed;
+    /*position: fixed*/
     z-index: -1;
+    width: 200%;
+    margin-left: -30%;
+    top: 0;
+    height: 300px;
+
+
+}
+
+
+.tinyHomeImg{
+    background-color: rgba(23, 18, 25, .5);
+    height: 300px;
+    background-repeat: no-repeat;
+    width: 200%;
+    margin-left: -20%;
+    /*position: fixed;*/
+    /*margin-right: 120%;*/
+
+    /*display: flex;*/
+
+}
+
+#hotspot{
+    text-align: center;
 }

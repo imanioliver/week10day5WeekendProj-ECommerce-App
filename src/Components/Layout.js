@@ -11,7 +11,7 @@ export default class BaseLayout extends Component {
                 <div className="kids">
 
                 {this.props.children}
-                
+
 
                 </div>
             </div>

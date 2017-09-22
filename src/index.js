@@ -14,9 +14,9 @@ ReactDOM.render(
     <BrowserRouter>
         <BaseLayout>
             <Switch>
-                <Route exact path="/" component={Home}>
+                <Route exact path="/" component={Home}/>
 
-                </Route>
+
             </Switch>
         </BaseLayout>
     </BrowserRouter>
