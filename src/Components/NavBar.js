@@ -15,7 +15,7 @@ export default class NavBar extends Component {
 
 
 
-                <nav id="theNav" className="navbar navbar-toggleable-md navbar-light" style={{backgroundColor:"lightgoldenrodyellow"}}>
+                <nav id="theNav" className="newNavClass" style={{backgroundColor:"lightgoldenrodyellow"}}>
                     <ul className="nav">
                       <li className="nav-item">
                         <NavLink className="nav-link active" to="/" style={styleLink}>BēânLoft</NavLink>

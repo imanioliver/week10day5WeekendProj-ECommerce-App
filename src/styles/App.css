@@ -1,29 +1,33 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: lightgoldenrodyellow;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
 
 theNav {
     overflow: hidden;
     background-color: lightgoldenrodyellow;
+}
+
+.kids {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 70px;
+    background-color: rgba(23, 18, 25, .5);
+    color: white;
+}
+
+nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px
+}
+
+.tinyHomeImg{
+    /*background-image: url(tinyhome1.jpg);*/
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 130%;
+    margin-left: -20%;
+    margin-right: 120%;
+    /*background-color: rgba(23, 18, 25, .2);*/
+    position: fixed;
+    z-index: -1;
 }
