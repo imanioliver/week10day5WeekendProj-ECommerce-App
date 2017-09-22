@@ -1,10 +1,6 @@
 import React, {Component} from 'react';
 import {NavLink} from 'react-router-dom';
 
-
-
-
-
 export default class NavBar extends Component {
 
 
@@ -16,6 +12,8 @@ export default class NavBar extends Component {
         }
 
         return(
+
+
 
                 <nav id="theNav" className="navbar navbar-toggleable-md navbar-light" style={{backgroundColor:"lightgoldenrodyellow"}}>
                     <ul className="nav">

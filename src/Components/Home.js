@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import ScrollExample from "./ScrollExample";
+
 
 export default class Home extends Component{
 
@@ -10,7 +12,9 @@ export default class Home extends Component{
                 <p>Integer convallis lacus eget ligula finibus malesuada. Morbi eleifend ex ornare tellus fringilla tincidunt. Proin elementum placerat quam. Vestibulum suscipit tincidunt felis in condimentum. Vestibulum id libero a tortor tempor pellentesque sed nec justo. Donec ac luctus ligula, nec congue orci. Duis a faucibus odio. Donec aliquam sapien nec enim cursus lobortis. Vivamus laoreet efficitur elementum. Pellentesque nec pulvinar diam. Ut interdum vel elit ac tincidunt. Suspendisse tincidunt facilisis vestibulum. Nulla sed tincidunt mauris, ut condimentum enim. Proin enim est, elementum eget congue eget, consectetur eleifend lectus.</p>
                 <p>Fusce justo urna, condimentum sed mauris in, faucibus mattis mi. Vivamus pellentesque non lectus et maximus. Praesent facilisis lacinia iaculis. Nam interdum justo non ex venenatis blandit. Curabitur suscipit fringilla dui, vel luctus nibh luctus at. Quisque ac augue eget ipsum hendrerit auctor vel quis sem. Praesent et blandit tellus, at fermentum ex. Nullam efficitur, risus ac semper vulputate, est quam ornare erat, vitae facilisis orci erat a leo. Sed mattis finibus libero, eu dapibus nisi mattis ac. Donec pretium vehicula velit id dapibus. Proin facilisis convallis leo, sed pharetra mauris efficitur ac. Aenean vitae elementum felis. Phasellus ac turpis tristique, euismod velit vitae, eleifend leo. In hac habitasse platea dictumst. Praesent sem libero, mollis consequat laoreet non, tempor a nunc.</p>
                 <p>In lobortis felis in lacus sagittis, et malesuada ligula vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut sit amet erat porttitor, tempus est tincidunt, laoreet dolor. Nullam facilisis risus sit amet purus tempor suscipit. Mauris in sagittis enim, sit amet sollicitudin velit. Maecenas vitae volutpat ante, accumsan aliquam ipsum. Duis placerat elit eu libero dictum, eget bibendum nisl commodo. In hac habitasse platea dictumst. Duis lobortis risus diam, ut pellentesque felis malesuada ut. Mauris consequat, arcu nec convallis viverra, ex augue dapibus augue, porttitor feugiat enim turpis eu lectus. Quisque facilisis, lectus in blandit pellentesque, enim urna egestas magna, sit amet tempor enim nisl ac erat.</p>
+                <ScrollExample/>
             </div>
+
         )
     }
 
