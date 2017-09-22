@@ -5,7 +5,7 @@ import registerServiceWorker from './registerServiceWorker';
 
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import BaseLayout from './Components/Layout';
-
+import Home from './Components/Home';
 
 
 ReactDOM.render(
@@ -14,7 +14,8 @@ ReactDOM.render(
     <BrowserRouter>
         <BaseLayout>
             <Switch>
-                <Route>
+                <Route exact path="/" component={Home}>
+
                 </Route>
             </Switch>
         </BaseLayout>

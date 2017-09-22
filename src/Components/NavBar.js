@@ -3,23 +3,36 @@ import {NavLink} from 'react-router-dom';
 
 
 
+
+
 export default class NavBar extends Component {
+
+
     render(){
+
+        let styleLink = {
+            backgroundColor: "white",
+            textDecoration: "none"
+        }
+
         return(
 
-                <nav className="navbar navbar-toggleable-md navbar-light bg-faded">
-                    <ul class="nav">
-                      <li class="nav-item">
-                        <NavLink class="nav-link active" to="#">BēânLoft</NavLink>
+                <nav id="theNav" className="navbar navbar-toggleable-md navbar-light" style={{backgroundColor:"lightgoldenrodyellow"}}>
+                    <ul className="nav">
+                      <li className="nav-item">
+                        <NavLink className="nav-link active" to="/" style={styleLink}>BēânLoft</NavLink>
                       </li>
-                      <li class="nav-item">
-                        <NavLink class="nav-link" to="#">Products</NavLink>
+                      <li className="nav-item">
+                        <NavLink className="nav-link" to="/products">Products</NavLink>
                       </li>
-                      <li class="nav-item">
-                        <NavLink class="nav-link" to="#">Features</NavLink>
+                      <li className="nav-item">
+                        <NavLink className="nav-link" to="/features">Features</NavLink>
                       </li>
-                      <li class="nav-item">
-                        <NavLink class="nav-link" to="#section1">Pricing</NavLink>
+                      <li className="nav-item">
+                        <NavLink className="nav-link" to="/pricing">Pricing</NavLink>
+                      </li>
+                      <li className="nav-item">
+                        <a className="nav-link" href='#section1'> Go to section 1 </a>
                       </li>
                     </ul>
                 </nav>
