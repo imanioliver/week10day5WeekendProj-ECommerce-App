@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import ScrollableAnchor from 'react-scrollable-anchor';
 
-export default class Siding extends Component {
+export default class Roofs extends Component {
     render(){
         return(
 
