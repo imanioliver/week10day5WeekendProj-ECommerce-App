@@ -15,20 +15,27 @@ export default class NavBar extends Component {
 
 
 
-                <nav id="theNav" className="newNavClass" style={{backgroundColor:"lightgoldenrodyellow"}}>
+                <nav id="theNav" className="newNavClass" >
                     <ul className="nav">
                       <li className="nav-item">
-                        <NavLink className="nav-link active" to="/" style={styleLink}>BēânLoft</NavLink>
+                        <NavLink className="nav-link active" to="/" style={styleLink}> Bēân <span id="loft"> loft </span></NavLink>
                       </li>
                       <li className="nav-item">
-                        <NavLink className="nav-link" to="/products">Products</NavLink>
+                        <NavLink className="nav-link" to="/about">About Us</NavLink>
                       </li>
                       <li className="nav-item">
-                        <NavLink className="nav-link" to="/features">Features</NavLink>
+                        <NavLink className="nav-link" to="/blueprints">Blueprints</NavLink>
                       </li>
                       <li className="nav-item">
-                        <NavLink className="nav-link" to="/pricing">Pricing</NavLink>
+                        <NavLink className="nav-link" to="/shells">Shells</NavLink>
                       </li>
+                      <li className="nav-item">
+                        <NavLink className="nav-link" to="/roofs">Roofs</NavLink>
+                      </li>
+                      <li className="nav-item">
+                        <NavLink className="nav-link" to="/contact">Contact Us</NavLink>
+                      </li>
+
                       <li className="nav-item">
                         <a className="nav-link" href='#section1'> Go to section 1 </a>
                       </li>

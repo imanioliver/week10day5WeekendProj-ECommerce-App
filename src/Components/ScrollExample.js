@@ -5,7 +5,7 @@ export default class ScrollExample extends Component{
     render(){
         return(
 
-            <ScrollableAnchor id={'section1'}>
+            <ScrollableAnchor id={'/section1'}>
                 <div id="pricing">
                     <p>We have the best prices</p>
                     <ul>

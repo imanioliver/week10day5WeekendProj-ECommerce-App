@@ -1,25 +1,31 @@
 import React, {Component} from 'react';
-import ScrollableAnchor from 'react-scrollable-anchor';
+import homes from './homeData'
+
 
 export default class Shells extends Component {
     render(){
-        return(
+        let allShells= homes.shells.map((shell)=>{
+            console.log(shell);
+            console.log(this.props);
+            return (
+                <div className="card text-center" key={shell.id}>
+                    <div className="card-block">
+                        <h4 className="card-title"> Shell Material: {shell.material}</h4>
+                        <p className="card-text"> Added Price: {shell.addedPrice} </p>
+                    </div>
 
-            <ScrollableAnchor id={'section1'}>
-                <div id="pricing">
-                    <p>We have the best prices</p>
-                    <ul>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-
-                    </ul>
+                    <img className="card-img-bottom" src={shell.img} alt=""/>
                 </div>
-            </ScrollableAnchor>
+            )
+        }
+
+        );
+
+        return(
+            <div className="shellsPage">
+                {allShells}
+            </div>
+
         )
     }
 }

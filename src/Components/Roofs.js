@@ -5,7 +5,7 @@ export default class Roofs extends Component {
     render(){
         return(
 
-            <ScrollableAnchor id={'section1'}>
+            <ScrollableAnchor id={'roofs'}>
                 <div id="pricing">
                     <p>We have the best prices</p>
                     <ul>

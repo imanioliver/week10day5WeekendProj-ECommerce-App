@@ -1,25 +1,35 @@
 import React, {Component} from 'react';
-import ScrollableAnchor from 'react-scrollable-anchor';
+import homes from './homeData'
+
 
 export default class Blueprints extends Component {
     render(){
-        return(
 
-            <ScrollableAnchor id={'section1'}>
-                <div id="pricing">
-                    <p>We have the best prices</p>
-                    <ul>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
+        let allBlueprints= homes.blueprints.map((blueprint)=>{
+            console.log(blueprint);
+            console.log(this.props);
+            return (
+                <div className="card text-center" key={blueprint.id}>
+                    <div className="card-block">
+                        <h4 className="card-title">Blueprint name: {blueprint.name}</h4>
+                        <p className="card-text"> Bed/Bath: {blueprint.layout.bedrooms} bedrooms, {blueprint.layout.bathrooms} bath </p>
+                        <p className="card-text">Dimensions: {blueprint.dimensionsInFeet.lotLength} ft x {blueprint.dimensionsInFeet.lotWidth} ft </p>
+                        <p className="card-text">Blueprint Base Price: ${blueprint.basePrice.string} </p>
 
-                    </ul>
+                    </div>
+
+                    <img className="card-img-bottom" src={blueprint.photos.exterior} alt=""/>
                 </div>
-            </ScrollableAnchor>
+            )
+        }
+
+        );
+        console.log(allBlueprints);
+
+        return(
+            <div className="blueprintsPage">
+                {allBlueprints}
+            </div>
         )
     }
 }
