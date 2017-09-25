@@ -23,14 +23,8 @@ nav {
     position: sticky;
     top: 0px;
     margin-bottom:0;
-    background-color: white;
-    z-index: -5;
-}
-
-.homeText {
-    /*z-index: 1;*/
-    font-family: 'Advent Pro', sans-serif;
-    /*background-color: red;*/
+    background-color: #B3D2B2;
+    /*z-index: -5;*/
 }
 
 
@@ -98,4 +92,38 @@ nav {
     width:35em;
     z-index: -1;
 
+}
+
+
+.section3 {
+    background-color: #FFFD98;
+    height: 400px;
+    padding-left: 17%;
+    padding-right: 17%;
+}
+.white {
+    background-color: #DCE8DD;
+    height: 400px;
+    padding-left: 17%;
+    padding-right: 17%;
+}
+
+.section5 {
+    background-color: #9FBBCC;
+    height: 400px;
+    padding-left: 17%;
+    padding-right: 17%;
+}
+
+.homeText {
+    /*z-index: 1;*/
+    font-family: 'Advent Pro', sans-serif;
+    /*background-color: red;*/
+    padding-left: 17%;
+    padding-right: 17%;
+}
+
+.housePics {
+    height: 250px;
+    width: 350px
 }

@@ -7,7 +7,7 @@ export default class NavBar extends Component {
     render(){
 
         let styleLink = {
-            backgroundColor: "white",
+            // backgroundColor: "white",
             textDecoration: "none"
         }
 
@@ -19,9 +19,6 @@ export default class NavBar extends Component {
                     <ul className="nav">
                       <li className="nav-item">
                         <NavLink className="nav-link active" to="/" style={styleLink}> Bēân <span id="loft"> loft </span></NavLink>
-                      </li>
-                      <li className="nav-item">
-                        <NavLink className="nav-link" to="/about">About Us</NavLink>
                       </li>
                       <li className="nav-item">
                         <NavLink className="nav-link" to="/blueprints">Blueprints</NavLink>

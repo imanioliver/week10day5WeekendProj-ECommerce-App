@@ -9,6 +9,7 @@ import Home from './Components/Home';
 import Contact from './Components/Contact'
 import Blueprints from './Components/Blueprints'
 import Shells from './Components/Shells'
+import Roofs from './Components/Roofs'
 
 
 
@@ -21,6 +22,7 @@ ReactDOM.render(
                 <Route exact path="/" component={Home}/>
                 <Route path="/blueprints" component={Blueprints}/>
                 <Route path="/shells" component={Shells}/>
+                <Route path="/roofs" component={Roofs}/>
                 <Route path="/contact" component={Contact}/>
             </Switch>
         </BaseLayout>

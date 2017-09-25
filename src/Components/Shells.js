@@ -11,7 +11,7 @@ export default class Shells extends Component {
                 <div className="card text-center" key={shell.id}>
                     <div className="card-block">
                         <h4 className="card-title"> Shell Material: {shell.material}</h4>
-                        <p className="card-text"> Added Price: {shell.addedPrice} </p>
+                        <p className="card-text"> Added Price: ${shell.addedPrice} </p>
                     </div>
 
                     <img className="card-img-bottom" src={shell.img} alt=""/>

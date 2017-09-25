@@ -1,25 +1,31 @@
 import React, {Component} from 'react';
-import ScrollableAnchor from 'react-scrollable-anchor';
+import homes from './homeData'
+
 
 export default class Roofs extends Component {
     render(){
-        return(
+        let allRoofs= homes.roofs.map((roof)=>{
+            console.log(roof);
+            console.log(this.props);
+            return (
+                <div className="card text-center" key={roof.id}>
+                    <div className="card-block">
+                        <h4 className="card-title"> Roof Style: {roof.type}</h4>
+                        <p className="card-text"> Added Price: ${roof.addedPrice} </p>
+                    </div>
 
-            <ScrollableAnchor id={'roofs'}>
-                <div id="pricing">
-                    <p>We have the best prices</p>
-                    <ul>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-                    <li>Lorem ipsum dolor sit amet.</li>
-
-                    </ul>
+                    <img className="card-img-bottom" src={roof.img} alt=""/>
                 </div>
-            </ScrollableAnchor>
+            )
+        }
+
+        );
+
+        return(
+            <div className="shellsPage">
+                {allRoofs}
+            </div>
+
         )
     }
 }

@@ -101,20 +101,23 @@ const homes = {
         {
             "id":1,
             "type":"Flat",
-            "img":"https://i.pinimg.com/736x/97/07/06/9707062b6700d1b0361d851603c2fabc--surf-shack-beach-shack.jpg"
+            "img":"https://i.pinimg.com/736x/97/07/06/9707062b6700d1b0361d851603c2fabc--surf-shack-beach-shack.jpg",
+            "addedPrice":500
 
         }, {
             "id":2,
             "type":"Vaulted",
-            "img":"https://i1.wp.com/www.tinyhouseliving.com/wp-content/uploads/2016/08/Scandinavian-Modern-Tiny-House-by-Simon-Steffensen-exterior.jpg?fit=1200%2C800&resize=350%2C200"
+            "img":"https://i1.wp.com/www.tinyhouseliving.com/wp-content/uploads/2016/08/Scandinavian-Modern-Tiny-House-by-Simon-Steffensen-exterior.jpg?fit=1200%2C800&resize=350%2C200",
+            "addedPrice":3000
         }, {
             "id":3,
             "type":"Solar Paneled",
-            "img":"http://frontierdc.com/images/solar2.jpg?crc=4238318932"
+            "img":"http://frontierdc.com/images/solar2.jpg?crc=4238318932",
+            "addedPrice":6000
         }
     ],
 
-    "Shells" : [
+    "shells" : [
 
         {
             "id":1, "material":"Brick", "img": "http://tinyhousetalk.com/wp-content/uploads/Three-Levels-by-Studioata-01-600x597.jpg", "addedPrice":3000
@@ -123,7 +126,7 @@ const homes = {
             "id":2, "material":"Wood", "img": "http://www.theshelterblog.com/wp-content/uploads/2015/07/millertinyhouse-048-edit1.jpg", "addedPrice":2000
         },
         {
-            "id":3, "material":"Standard Shipping Container", "img": "http://tinyhousetalk.com/wp-content/uploads/Freedom-Shipping-Container-Tiny-House-001.jpg", "addedPrice":200
+            "id":3, "material":"Standard Shipping Container", "img": "http://tinyhousetalk.com/wp-content/uploads/Freedom-Shipping-Container-Tiny-House-001.jpg", "addedPrice":1000
         }
 
     ]
